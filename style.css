@@ -1,4 +1,19 @@
+body {
+  background-color: rgb(224, 221, 195);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  color: rgb(207, 89, 152);
+  margin-left: 0px;
+}
+
+h2 {
+  color: rgb(89, 128, 207);
+  margin-left: 0px;
+}
+
 table, th, tr, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
+  border: solid black;
+  border-collapse: collapse;
+}
