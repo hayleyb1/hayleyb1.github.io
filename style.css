@@ -13,6 +13,16 @@ h2 {
   margin-left: 0px;
 }
 
+.orange h2 {
+  color: rgb(221, 136, 57);
+  margin-left: 0px;
+}
+
+.blue h2 {
+  color: rgb(89, 128, 207);
+  margin-left: 0px;
+}
+
 table, th, tr, td {
   border: solid black;
   border-collapse: collapse;
