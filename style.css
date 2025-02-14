@@ -23,6 +23,10 @@ h2 {
   margin-left: 0px;
 }
 
+.green h2 {
+  color:rgb(116, 184, 48);
+}
+
 table, th, tr, td {
   border: solid black;
   border-collapse: collapse;
