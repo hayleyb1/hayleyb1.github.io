@@ -8,7 +8,7 @@ h1 {
   margin-left: 0px;
 }
 
-h2 {
+.blue h2 {
   color: rgb(89, 128, 207);
   margin-left: 0px;
 }
@@ -18,13 +18,9 @@ h2 {
   margin-left: 0px;
 }
 
-.blue h2 {
-  color: rgb(89, 128, 207);
-  margin-left: 0px;
-}
-
 .green h2 {
   color:rgb(116, 184, 48);
+  margin-left: 0px;
 }
 
 table, th, tr, td {
