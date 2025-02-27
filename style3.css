@@ -32,3 +32,85 @@ img, figcaption {
     max-width: 100%;
     text-align: center;
 }
+
+
+#doctype {
+    text-indent: em;
+}
+
+#html {
+    text-indent: 1em;
+}
+
+#head {
+    text-indent: 2em;
+}
+
+#title {
+    text-indent: 3em;
+}
+
+#link {
+    text-indent: 3em;
+}
+
+#body {
+    text-indent: 4em;
+}
+
+#header {
+    text-indent: 5em;
+}
+
+#nav {
+    text-indent: 6em;
+}
+
+#main {
+    text-indent: 5em;
+}
+
+#section {
+    text-indent: 6em;
+}
+
+#article {
+    text-indent: 7em;
+}
+
+#aside {
+    text-indent: 7em;
+}
+
+#footer {
+    text-indent: 5em;
+}
+
+
+
+
+
+
+/* <p id="overview">Overview:</p>
+                <p id="doctype">DOCTYPE! html<p>
+                <p id="html">html</p>       
+                <p id="head">head</p>       
+                <p id="title">title</p>       
+                <p id="link">link</p>       
+                <p id="head">/head</p>       
+                <p id="body">body</p>       
+                <p id="header">header</p>       
+                <p id="nav">nav</p>       
+                <p id="header">/header</p>       
+                <p id="main">main</p>       
+                <p id="section">section</p>       
+                <p id="article">article</p>
+                <p id="article">/article</p>       
+                <p id="aside">aside</p>       
+                <p id="aside">/aside</p>       
+                <p id="main">/main</p>       
+                <p id=footer>footer</p>       
+                <p id="footer">/footer</p>       
+                <p id="body">/body</p>       
+                <p id="html">/html</p>       
+            </section>     */
