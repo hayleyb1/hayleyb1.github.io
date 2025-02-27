@@ -3,9 +3,17 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@font-face {
+  font-family:  Spicy Rice;
+  src: https://fonts.googleapis.com/css?family=Spicy+Rice;
+}
+
 h1 {
-  color: rgb(207, 89, 152);
-  margin-left: 0px;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+  font-family: Spicy Rice;
+  font-size:70;
+  width: 400;
 }
 
 .blue h2 {
@@ -28,7 +36,7 @@ table, th, tr, td {
   border-collapse: collapse;
 }
 
-form {
+.login {
   border: solid black; 
   width: 150;
   height: 95
@@ -44,9 +52,11 @@ form {
 
 .rainbow-background {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  width: 165
 }
 
 .rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
   color: transparent;
+  width: 90
 }

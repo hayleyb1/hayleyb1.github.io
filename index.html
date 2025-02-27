@@ -3,14 +3,19 @@
 <head>
     <title>Hayley's Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
 </head>
 <body>
-    <div>    
         <h1>Hayley is cool</h1>
         <hr>
+    <form>    
         <p>Who is the coolest?</p>
         <input type="radio" id="radiobutton" name="radiobutton" value="Hayley" checked="checked">
         <label for="radiobutton">Hayley</label>
+        <br>
+        <br>
+        <input type="Submit" value="Submit">
+    </form>    
         <hr>
     
         <br>
@@ -20,8 +25,7 @@
         <ol>
             <li>click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here</a> for a <strong><em>surprise</strong></em> 😍</li>        
             <li>click <a href=./pagetwo.html target="_blank">here</a> for page two</p>
-        </ol>    
-    </div>    
+        </ol>        
     <div class="blue">
         <p><h2>Socials</h2>    
         <ul>
@@ -64,10 +68,11 @@
                 </tr>
             </tbody>        
         </table>    
+        <p><a href=./semantic.html target="_blank">here</a> for semantic HTML</p>
     </div>       
     <div class="green">
         <h2>Text box</h2>
-        <form>
+        <form class="login">
             <label for="username">username:</label>
             <input type="text" name="username" value="type here...">
             <label for="password">password:</label>
@@ -79,8 +84,11 @@
         <p class="rainbow-background">rainbow background🌈</p>
         <hr>
         <section class="section1">
+           <form> 
             <label for="number">number input:</label>
-            <input type="number" name="number" id="number" step="2">
+            <input type="number" name="number" id="number" step="2" min="2" max="10">
+            <input type="submit" value="Submit">
+           </form> 
         </section>
         <hr>
         <section class="section2">
@@ -98,10 +106,8 @@
             <br>
             <input type="checkbox" name="options" id="option3" value="option3">    
             <label for="option3">Option 3</label>
-            <hr>
-            <p class="rainbow-text">rainbow text but why do I have to make it so long</p>
-            <hr>
         </section>
+        <hr>
     </div>    
         <section id="dropdown">
         <label for="dropdown">Dropdown</label>
@@ -126,14 +132,23 @@
                         <option value="ocean swims"></option>
                     </datalist>    
         </section>
-    <hr>
-    <p>hello</p>
-    <hr>
     <div>
+        <hr>
         <form>
-            <label for="thing">Text area</label>
+            <label for="textbox"><strong>Text area</strong></label>
             <br>
-            <textarea id="thing" name="thing" rows="5" cols="30"></textarea>
+            <textarea id="textbox" name="textbox" rows="8" cols="30" required minlength="15" maxlength="200"></textarea>
+            <br>
+            <br>
+            <input type="Submit" value="Submit">
+        </form>    
+        <hr>
+        <form>
+            <label for="regex" id="regex" name="regex">regex</label>
+            <br>
+            <br>
+            <input type="text" name="regex" id="regex" required pattern="[a-zA-z0-9]{2,10}">
+            <input type="submit" value="Submit">
         </form>    
     </div>                
 </body>      
