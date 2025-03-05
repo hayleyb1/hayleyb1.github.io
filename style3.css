@@ -64,7 +64,7 @@ img, figcaption {
     text-indent: 4em;
 }
 
-#header {
+#header1 {
     text-indent: 5em;
 }
 
@@ -93,30 +93,3 @@ img, figcaption {
 }
 
 
-
-
-
-
-/* <p id="overview">Overview:</p>
-                <p id="doctype">DOCTYPE! html<p>
-                <p id="html">html</p>       
-                <p id="head">head</p>       
-                <p id="title">title</p>       
-                <p id="link">link</p>       
-                <p id="head">/head</p>       
-                <p id="body">body</p>       
-                <p id="header">header</p>       
-                <p id="nav">nav</p>       
-                <p id="header">/header</p>       
-                <p id="main">main</p>       
-                <p id="section">section</p>       
-                <p id="article">article</p>
-                <p id="article">/article</p>       
-                <p id="aside">aside</p>       
-                <p id="aside">/aside</p>       
-                <p id="main">/main</p>       
-                <p id=footer>footer</p>       
-                <p id="footer">/footer</p>       
-                <p id="body">/body</p>       
-                <p id="html">/html</p>       
-            </section>     */

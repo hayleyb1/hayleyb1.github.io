@@ -11,8 +11,7 @@
 
     <header>
         <h1>Hayley is cool</h1>
-        <h2 id="header-h2">this is a header</h2>
-        <script type="text/javascript" src="hayley.js"></script>
+        <h2 id="datetime">header</h2>
     </header>  
 
     <hr>
@@ -25,7 +24,8 @@
                 <label for="radiobutton">Hayley</label>
                 <br>
                 <br>
-                <input type="Submit" value="Submit">
+                <input type="button" value="Submit" id="coolestbutton">
+                <p id="confirmation"></p>
             </form>    
         </section>    
 
@@ -176,7 +176,8 @@
                 <textarea id="textbox" name="textbox" rows="8" cols="30" required minlength="15" maxlength="200"></textarea>
                 <br>
                 <br>
-                <input type="Submit" value="Submit">
+                <input type="Submit" value="Submit" id="textsubmit">
+                <p id="textaftersubmit"></p>
             </form>    
         <hr>
             <form>
@@ -188,19 +189,13 @@
             </form>    
         </section> 
         <hr>
-    
-        <section>
-
-            <p id="demo"></p>
-
-            <script>
-            document.getElementById("demo").innerHTML = "Hello World!";
-            </script>
-
-        </section>
-
-        <hr>
-
     </main>                   
+
+    <footer>
+        <h2 id="footertext">footer</h2>
+        <script src="hayley.js"></script>
+    </footer>
+    
+
 </body>      
 </html>    
