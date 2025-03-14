@@ -16,9 +16,7 @@
             <h1>Headers are containers usually for either navigational links or introductory content</h1>    
             <nav>
                 <h2 id="datetime">header</h2>
-                <ul>
                     <li><a href="/index.html">Home</a></li>
-                </ul>    
             </nav>    
         </header>
 
@@ -42,7 +40,8 @@
                 <p id="article">article</p>
                 <p id="article">/article</p>       
                 <p id="aside">aside</p>       
-                <p id="aside">/aside</p>       
+                <p id="aside">/aside</p>  
+                <p id="section">/section</p>            
                 <p id="main">/main</p>       
                 <p id=footer>footer</p>       
                 <p id="footer">/footer</p>       
@@ -82,12 +81,15 @@
             <section>
                 <div>
                     <h3>DOM Manipulation</h3>
-                    <ul id="DOMlist">
-                        <li>document.getElementsById()</li>
-                        <li>document.getElementsByTagName()</li>
-                        <li>document.getElementsByClassName</li>
-                        <li>document.querySelector - this is used to select the first item that matches the selector it is given - tag, class, id etc</li>
-                        <li>document.querySelectorAll() - used to select all of the selectors it is given</li>
+                    <ul>
+                        <li class="list-items">
+                            <span>span text within list item</span>
+                            document.getElementsById()
+                        </li>
+                        <li class="list-items">document.getElementsByTagName()</li>
+                        <li class="list-items">document.getElementsByClassName</li>
+                        <li class="list-items">document.querySelector - this is used to select the first item that matches the selector it is given - tag, class, id etc</li>
+                        <li class="list-items">document.querySelectorAll() - used to select all of the selectors it is given</li>
                     </ul>    
                 </div>    
             </section>        
@@ -96,7 +98,7 @@
 
         <footer>
             <h2 id="footertext">footer</h2>
-            <script src="hayley.js"></script>
+            <script src="semantic.js"></script>
         </footer>
 
     </body>    
