@@ -17,6 +17,11 @@
             <nav>
                 <h2 id="datetime">header</h2>
                     <li><a href="/index.html">Home</a></li>
+                <br>
+                <button onclick="alert('wot m8')">Button</button>    
+                <br>
+                <br>
+                <button class="btn2">Button 2</button>
             </nav>    
         </header>
 
@@ -49,7 +54,7 @@
                 <p id="html">/html</p>       
             </section>    
 
-            <section>
+            <section class="section1">
                 <article>
                     <h3>Section One</h3>
                     <p>That heading is within section and article elements</p>
@@ -59,13 +64,23 @@
                 </aside>       
             </section>
 
-            <section>
-                <h3>Section Two</h3>
+            <section class="section2">
+                <h3 id="two">Section Two</h3>
                 <p>Figure is used to encapsulate media such as an image. Figcaption is an element used to describe the media in the figure tags. Usually figcaption will go inside figure. This is different to using a p element to describe the content - if we decide to change the location of figure, the paragraph tag may get displaced from figure while a figcaption will move with the figure.</p>
                 <figure>
                     <img src="data:image/jpeg;base64,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">
                     <figcaption> sultry voldy</figcaption>    
                 </figure>    
+            </section>
+
+            <section class="Three">
+                <h3>Section Three</h3>
+
+                <div class="container">
+                    <button class="bigbutton">bigg bertonn</button>
+                    <button class="reveal-btn">click for more info</button>
+                    <button class="hidden-content">peekaboo</button>
+                </div>    
             </section>
 
             <section>

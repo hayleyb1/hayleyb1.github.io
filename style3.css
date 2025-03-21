@@ -93,3 +93,22 @@ img, figcaption {
 }
 
 
+.bigbutton {
+    height: 200;
+    width: 200;
+}
+
+.reveal-btn {
+    height: 200;
+    width: 200;
+}
+
+.hidden-content {
+    display: none;
+    height: 200;
+    width: 200;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
+}
