@@ -90,4 +90,37 @@ function revealContent() {
 revealInfo.addEventListener('click', revealContent)
 
 //event propogation
+let clickCount1 = 0;
+
+document.querySelector('#propogation').addEventListener('click', function(e){
+    console.log(e.target.getAttribute('id') + ' is clicked');
+
+    const target = e.target;
+    if (target.matches('button'),(clickCount1 === 0)) {
+        target.style.backgroundColor = 'green';
+    } else if (target.matches('button'),(clickCount1 === 1)) {
+        target.style.backgroundColor = 'pink';
+    }
+    clickCount1 = (clickCount1 + 1) % 2;
+});
+
+////
+const hayley = document.querySelector("#hayley");
+    console.log(hayley.innerHTML)
+
+let clickCount2 = 0;
+
+function clickcolour () {
+    if (clickCount2 === 0) {
+        hayley.style.backgroundColor = 'green';
+    } else if (clickCount2 === 1) {
+        hayley.style.backgroundColor = 'blue';
+    };
+    console.log(clickCount2)
+    clickCount2 = (clickCount2 + 1) % 2;
+    console.log(clickCount2)
+}
+
+hayley.addEventListener("click", clickcolour)
+
 
