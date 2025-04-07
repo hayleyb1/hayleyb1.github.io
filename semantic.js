@@ -122,5 +122,5 @@ function clickcolour () {
 }
 
 hayley.addEventListener("click", clickcolour)
-
+// or hayley.onclick = clickcolour
 
