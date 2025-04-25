@@ -28,8 +28,14 @@ document.getElementById("textsubmit")?.addEventListener("click", function() {
     document.getElementById("textaftersubmit").innerHTML = "thanks";
 });
 
+//event objects - text box area 2 --- can't make it show the actual key clicked!!!
 
+const textBox2 = document.querySelector('#textbox2');
+const output2 = document.querySelector('#keyevent2');
 
+textBox2.addEventListener("keydown", (event) => {
+    output2.textContent = 'you pressed "${event.key}".';
+});
 
 //using the style property
 const footer = document.querySelector('#footertext');

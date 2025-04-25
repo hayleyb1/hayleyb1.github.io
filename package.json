@@ -1,0 +1,14 @@
+{
+  "name": "hayleyb1.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hayley.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.2"
+  }
+}
