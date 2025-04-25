@@ -1,4 +1,5 @@
-import { type Locator, type Page, expect } from '@playwright/test';
+import { Page, expect } from '@playwright/test';
+
 
 export class TestPage {
     readonly page: Page;
@@ -6,7 +7,7 @@ export class TestPage {
 
     constructor(page: Page) {
         this.page = page;
-        this.pageTitle = /Test Page/;
+        this.pageTitle = /Hayley's Website/;
     }
 
     async assertPageTitle() {

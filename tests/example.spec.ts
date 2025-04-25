@@ -12,25 +12,25 @@ test.beforeEach(async ({page}) => {
     homePage = new HomePage(page);
 });
 
+
 async function clickTestPageLink(page: Page) {
     await homePage.clickTestPageLink();
     testPage = new TestPage(page);
 }
 
-test.describe('Index Page', () => {
+test.describe('Navigate from Index Page to Automation Page', () => {
 
-    test('has title', async () => {
+    test('Has title', async () => {
         await homePage.assertPageTitle();
     });
     
-    test('test button and URL', async ({ page }) => {
+    test('Click link and check URL', async ({ page }) => {
         // Act
         await clickTestPageLink(page);
+
         // Assert
         await testPage.assertPageTitle();
         await testPage.assertPageUrl(pageUrl)
     });
 
-      
-    // });
 });

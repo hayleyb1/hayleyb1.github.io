@@ -7,7 +7,7 @@ export class HomePage {
 
     constructor(page: Page) {
         this.page = page;
-        this.testPageLink = page.getByRole('link', { name: 'Test Page' });
+        this.testPageLink = page.getByRole('link', { name: 'Test Automation Page' });
         this.pageTitle = /Hayley's Website/;
     }
 
@@ -16,7 +16,6 @@ export class HomePage {
     }
 
     async clickTestPageLink() {
-        // await this.page.waitForNavigation(),
         await this.testPageLink.click();
     }
 
