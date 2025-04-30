@@ -23,7 +23,11 @@ test.describe('Check Test Page title and click button', () => {
     
     test('Click test button', async ({ page }) => {
         await testPage.clickTestButton();
-        await testPage.assertButtonClick();
+        await testPage.assertButtonClick();    });
+
+    test('Text changes', async ({ page }) => {
+        await testPage.clickTestButton();
         await testPage.assertButtonClickText();
     });
+
 });
